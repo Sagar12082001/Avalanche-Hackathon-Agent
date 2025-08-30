@@ -1,0 +1,28 @@
+# Chat Moderation Agent Dependencies
+# Enhanced with Advanced Profanity Detection System
+
+# HTTP requests library for Gemini REST API integration
+requests>=2.31.0
+
+# Standard library modules used (no additional installation needed):
+# Core Python libraries:
+# - json          # JSON data handling
+# - re            # Regular expressions for pattern matching and profanity detection
+# - dataclasses   # Data structure definitions
+# - datetime      # Timestamp handling
+# - typing        # Type hints and annotations
+# - collections   # defaultdict for statistics tracking
+# - time          # Performance timing
+# - os            # Environment variables and system operations
+# - logging       # Comprehensive logging system
+# - hashlib       # Hashing for caching
+# - functools     # Function utilities and decorators
+# - string        # String operations for profanity filtering
+
+# New profanity detection capabilities:
+# - Advanced pattern matching with regex
+# - Character substitution detection (l33tspeak)
+# - Context-aware filtering
+# - Severity-based classification
+# - Bypass attempt detection
+# - Whitelist and custom word management
